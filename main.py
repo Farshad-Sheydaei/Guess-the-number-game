@@ -47,8 +47,8 @@ def game():
                 coins -= bet
                 chance -= 1
         if chance == 0:
-            print('You lose!,\nyou have no other chance')
+            print(f'You lose!\nThe number was{random_number}\nyou have no other chance')
 
+# now called game function
 
-if __name__ == '__main__':
-    game()
+game()
